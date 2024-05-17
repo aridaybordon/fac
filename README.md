@@ -85,6 +85,11 @@ make install-pfac
 ```
 This installs the PFAC interface into Python's default site-package dir.
 
+If you want to install PFAC in a different Python version, set the environment variable PYTHON to the executable of your choice before running the `configure` command.
+```
+export PYTHON=path/to/python
+```
+
 #### 4-1 Anaconda distribution
 If your are using Anaconda distribution for Python environment, it may be
 necessary to install gcc compilers from Anacona.
